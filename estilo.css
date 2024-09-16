@@ -1,0 +1,73 @@
+*{
+ 
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(0, 140, 255);
+/* background-mage: url(https://images.ecycle.com.br/wp-content/uploads/2021/05/20195924/o-que-e-paisagem.jpg.webp); */
+background-repeat: no-repeat ; 
+/* background-image: https://www.democrart.com.br/cdn/shop/files/quadros-democrart-gustavo-jacob-paisagem-baixa-luz-milford-sound-NZ-galeria-de-arte-obras-de-arte.jpg?v=1724115812&width=2048; */
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+animation: mudarcores 5s infinite ;
+}
+main{
+    border: rgb(30, 0, 255) 3px dotted;
+width:70%;
+margin: auto;
+padding: 25px;
+background-color: rgba(211, 219, 227, 0.171);
+border-radius: 30px;
+
+}
+
+
+p{
+
+
+font-weight:100 ;
+font-stretch:extra-expanded ;
+line-height: 25px;
+
+/* word-spacing: 2px; */
+text-align: justify;
+/* text-decoration:underline dashed rgb (12, 12, 151) ; */
+/* text-transform: uppercase; */
+ text-indent:20px; 
+text-shadow: 10px 10px 10px   rgb(5, 5, 110);
+}
+
+h1
+{
+font-family:initial;
+line-height: 100px;
+word-spacing: 30px;
+text-decoration:underline dashed;
+
+
+text-shadow: 10px 10px 10px rgb(19, 43, 130);
+text-align: center;
+}
+img{
+
+    margin-left: 100px;
+}
+@keyframes mudarcores {
+0% {background-color :blueviolet;
+    
+}
+25%{
+    background-color: aqua;
+}
+50%{
+    background-color: rgb(20, 137, 220);
+}
+75%
+{
+    background-color: rgb(47, 107, 103);
+}
